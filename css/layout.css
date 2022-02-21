@@ -476,7 +476,7 @@ ul#nav li.current a {
     -webkit-animation: typescript 2s ease;
 }
 
-.NgRx {
+.ngrx {
     width: 50%;
     -moz-animation: typescript 2s ease;
     -webkit-animation: typescript 2s ease;
