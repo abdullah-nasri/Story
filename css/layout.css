@@ -465,21 +465,27 @@ ul#nav li.current a {
 }
 
 .typescript {
-    width: 50%;
+    width: 60%;
     -moz-animation: typescript 2s ease;
     -webkit-animation: typescript 2s ease;
 }
 
 .angular {
-    width: 50%;
-    -moz-animation: typescript 2s ease;
-    -webkit-animation: typescript 2s ease;
+    width: 60%;
+    -moz-animation: angular 2s ease;
+    -webkit-animation: angular 2s ease;
 }
 
 .ngrx {
     width: 50%;
-    -moz-animation: typescript 2s ease;
-    -webkit-animation: typescript 2s ease;
+    -moz-animation: ngrx 2s ease;
+    -webkit-animation: ngrx 2s ease;
+}
+
+.restApi {
+    width: 60%;
+    -moz-animation: restApi 2s ease;
+    -webkit-animation: restApi 2s ease;
 }
 
 .gitHup {
@@ -501,12 +507,42 @@ ul#nav li.current a {
 }
 
 .bootstrap {
-    width: 50%;
+    width: 60%;
     -moz-animation: bootstrap 2s ease;
     -webkit-animation: bootstrap 2s ease;
 }
+.Angular-Material-UI {
+    width: 60%;
+    -moz-animation: Angular-Material-UI 2s ease;
+    -webkit-animation: Angular-Material-UI 2s ease; 
+}
 
-@-moz-keyframes photoshop {
+@-webkit-keyframes javascript {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 75%;
+    }
+}
+@-moz-keyframes javascript {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 75%;
+    }
+}
+
+@-webkit-keyframes typescript {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 60%;
+    }
+}
+@-moz-keyframes typescript {
     0% {
         width: 0px;
     }
@@ -515,52 +551,7 @@ ul#nav li.current a {
     }
 }
 
-@-moz-keyframes illustrator {
-    0% {
-        width: 0px;
-    }
-    100% {
-        width: 55%;
-    }
-}
-
-@-moz-keyframes wordpress {
-    0% {
-        width: 0px;
-    }
-    100% {
-        width: 50%;
-    }
-}
-
-@-moz-keyframes css {
-    0% {
-        width: 0px;
-    }
-    100% {
-        width: 90%;
-    }
-}
-
-@-moz-keyframes html5 {
-    0% {
-        width: 0px;
-    }
-    100% {
-        width: 80%;
-    }
-}
-
-@-moz-keyframes jquery {
-    0% {
-        width: 0px;
-    }
-    100% {
-        width: 50%;
-    }
-}
-
-@-webkit-keyframes photoshop {
+@-webkit-keyframes angular {
     0% {
         width: 0px;
     }
@@ -569,30 +560,30 @@ ul#nav li.current a {
     }
 }
 
-@-webkit-keyframes illustrator {
+@-moz-keyframes angular {
     0% {
         width: 0px;
     }
     100% {
-        width: 55%;
+        width: 60%;
     }
 }
 
-@-webkit-keyframes wordpress {
+@-webkit-keyframes restApi {
     0% {
         width: 0px;
     }
     100% {
-        width: 50%;
+        width: 60%;
     }
 }
 
-@-webkit-keyframes css {
+@-moz-keyframes restApi {
     0% {
         width: 0px;
     }
     100% {
-        width: 90%;
+        width: 60%;
     }
 }
 
@@ -605,12 +596,84 @@ ul#nav li.current a {
     }
 }
 
-@-webkit-keyframes jquery {
+@-moz-keyframes html5 {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+@-webkit-keyframes ngrx {
     0% {
         width: 0px;
     }
     100% {
         width: 50%;
+    }
+}
+
+@-moz-keyframes ngrx {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+@-webkit-keyframes gitHup {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+@-moz-keyframes gitHup {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+@-webkit-keyframes bootstrap {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+@-moz-keyframes bootstrap {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+@-webkit-keyframes Angular-Material-UI {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+@-moz-keyframes Angular-Material-UI {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 60%;
     }
 }
 
