@@ -61,7 +61,8 @@
 /* ------------------------------------------------------------------ */
 
 body {
-    background: #0EA47A;
+    /*background: #0EA47A;*/
+    background-color: #880808;
 }
 
 
@@ -104,7 +105,8 @@ header .banner-text {
     position: absolute;
     top: 25%;
     left: 10%;
-    background-color: rgba(14, 164, 122,0.8);
+    /*background-color: rgba(14, 164, 122,0.8);*/
+    background-color: #880808;
 }
 
 header .banner-text h1 {
@@ -234,7 +236,8 @@ ul#nav {
     width: auto;
     /* center align the menu */
     text-align: center;
-    background-color: rgba(14, 164, 122,0.8);
+    /*background-color: rgba(14, 164, 122,0.8);*/
+    background-color: #880808;
 }
 
 ul#nav li {
